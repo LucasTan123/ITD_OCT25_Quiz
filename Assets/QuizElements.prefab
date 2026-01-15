@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 76618f7490c40334fa7b685859587d2e, type: 2}
     - target: {fileID: 5081145665560265594, guid: 36f1bf463a3cc48e1925be9a3e4ff95b, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
-      value: 3
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5461803710886309484, guid: 36f1bf463a3cc48e1925be9a3e4ff95b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -271,6 +271,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2784399016960976598}
     m_Modifications:
     - target: {fileID: 1838569810075647991, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838569810075647991, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -301,6 +305,26 @@ PrefabInstance:
     - target: {fileID: 1838569810075647991, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995145657973979311, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
+      propertyPath: m_Axis.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995145657973979311, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
+      propertyPath: m_Axis.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995145657973979311, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
+      propertyPath: m_Axis.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995145657973979311, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
+      propertyPath: m_Anchor.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995145657973979311, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
+      propertyPath: m_Anchor.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6087548673717121279, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -345,6 +369,10 @@ PrefabInstance:
     - target: {fileID: 6745816268600322971, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
       propertyPath: m_Name
       value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 6791584738440602490, guid: 62a80576a55d142baa157f5d9a4e4c1b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
